@@ -1,0 +1,18 @@
+# Секреты — НИКОГДА не коммитить
+mcp-server/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Windows
+Thumbs.db
+
+# Личные данные (публичный репозиторий)
+analyses/*.md
+!analyses/.gitkeep
+channels.md
+seen-videos.md
+
+# Локальные настройки Claude
+.claude/settings.local.json
